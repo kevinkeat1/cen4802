@@ -1,6 +1,14 @@
 
 public class keatingAssign2 {
-	
+	/**
+	 * Recursive implementation for nth Fibonacci number
+	 * Time complexity - O(n)
+	 * Space complexity - O(n)
+	 * 
+	 * @author Kevin Keating
+	 * @param n
+	 * @return
+	 */
 	public static int fibonacciRecursive(int n) {
 		if(n <= 1) {
 			return n;
